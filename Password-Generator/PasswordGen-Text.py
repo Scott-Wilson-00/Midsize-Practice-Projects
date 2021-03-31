@@ -56,11 +56,14 @@ while True:
 
     # Generates a password based on previous choices
     password = ''
-    for i in range(chars):
-        password = password + random.choice(choices)
+    if choices != '':
+        for i in range(chars):
+            password = password + random.choice(choices)
 
-    # Print the password
-    print(f'\nYour password is: {password}')
+        # Print the password
+        print(f'\nYour password is: {password}')
+    else:
+        print('\nYou need to select at least one option to generate a password.')
 
     # User chooses to generate another password or not
     if not get_input_yn('\nWould you like to generate another password? \n(yes/no): '):
