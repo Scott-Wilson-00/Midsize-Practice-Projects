@@ -1,5 +1,5 @@
 # Import the helper script
-import TicTacToeHelper as ttt
+import helper as ttt
 
 # The 2D array representing the board
 board = [
