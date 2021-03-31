@@ -1,2 +1,2 @@
 # Midsize-Practice-Projects
-A place to store all the projects that do some cool stuff!
+Functional programs, designed to be used without bugs or errors. Higher level practice.
