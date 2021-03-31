@@ -1,3 +1,4 @@
+#Password-Generator
 There are 5 options to be toggled which include: lowercase characters, uppercase characters, numbers, symbols, miscellaneous characters
 
 Click the plus '+' or minus '-' to increase the length of your password (min:8, max:30)
