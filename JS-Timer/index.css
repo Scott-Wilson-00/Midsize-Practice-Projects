@@ -1,0 +1,76 @@
+body {
+    background-color: #1A1A1D;
+}
+
+/* Main header */
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Sub-header */
+h2 {
+    color: #6F2232;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+.timer {
+    color: #C3073F;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150px;
+    margin-bottom: 1cm;
+    margin-top: 2.5cm;
+    text-align: center;
+}
+
+
+/* Timer Information */
+pre {
+    color: rgb(180, 180, 180);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    margin-bottom: 0.5cm;
+    text-align: center;
+
+}
+
+/* Tip */
+P {
+    color: #C3073F;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    text-align: center;
+}
+
+/* Dropdown menu class*/
+.dropDownMenus {
+    display: block;
+    text-align: center;
+}
+
+/* Button class*/
+.button {
+    background-color: transparent;
+    border: 2px solid #C3073F;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 1cm;
+    padding: 20px 45px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+/* While mouse is over button class*/
+.button:hover {
+    background-color: #C3073F;
+    color: white;
+}
+
