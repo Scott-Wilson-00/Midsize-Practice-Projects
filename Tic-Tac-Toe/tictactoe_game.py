@@ -47,7 +47,7 @@ while running:
             playing = False
 
         # If it is a tie, end the game
-        if ttt.check_for_tie(board):
+        if ttt.check_for_tie(board, playing):
             print("\nIt's a tie!")
             playing = False
 
