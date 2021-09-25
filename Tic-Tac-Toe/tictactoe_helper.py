@@ -102,7 +102,7 @@ def check_for_win(b):
     return False
 
 
-def check_for_tie(b):
+def check_for_tie(b, isPlaying):
     """
     Checks if the board is full (called after check_for_win(), so it is a tie)
 
@@ -111,7 +111,9 @@ def check_for_tie(b):
     """
     if ' ' in b[0] or ' ' in b[1] or ' ' in b[2]:
         return False
-    return True
+    if isPlaying:
+        return True
+    return False
 
 
 def print_board(b):
